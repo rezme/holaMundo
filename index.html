@@ -12,9 +12,14 @@ document.addEventListener("deviceready",onDeviceReady,
 false);
 }
 function onDeviceReady() {
-navigator.notification.alert("PhoneGap is ready!");
-navigator.notification.beep(10);
-navigator.notification.vibrate(10000);
+navigator.notification.alert(
+    'Wawawa!',  // message
+    alertDismissed,         // callback
+    'Lalala',            // title
+    'fin'
+    );   
+navigator.notification.beep(2);
+navigator.notification.vibrate(7000);
 }
 </script>
 
