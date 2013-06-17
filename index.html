@@ -12,12 +12,7 @@ document.addEventListener("deviceready",onDeviceReady,
 false);
 }
 function onDeviceReady() {
-navigator.notification.alert(
-    'Wawawa!',  // message
-    alertDismissed,         // callback
-    'Lalala',            // title
-    'fin'
-    );   
+navigator.notification.alert("Wawawa",alertDismissed,"Lalala","fin");   
 navigator.notification.beep(2);
 navigator.notification.vibrate(7000);
 }
