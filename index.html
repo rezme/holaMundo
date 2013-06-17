@@ -12,12 +12,12 @@ document.addEventListener("deviceready",onDeviceReady,
 false);
 }
 function onDeviceReady() {
-//navigator.notification.alert("PhoneGap is ready!");
+navigator.notification.alert("PhoneGap is ready!");
 //navigator.notification.confirm("PhoneGap is ready!");
-navigator.notification.prompt("PhoneGap is ready!");
+//navigator.notification.prompt("PhoneGap is ready!");
 }
 function playBeep() {
-        navigator.notification.beep(3);
+        navigator.notification.beep(2);
 }
 </script>
 
