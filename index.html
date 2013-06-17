@@ -13,14 +13,8 @@ false);
 }
 function onDeviceReady() {
 navigator.notification.alert("PhoneGap is ready!");
-//navigator.notification.confirm("PhoneGap is ready!");
-//navigator.notification.prompt("PhoneGap is ready!");
-function playBeep() {
-        navigator.notification.beep(2);
-}
-function vibrate() {
-        navigator.notification.vibrate(2000);
-}
+navigator.notification.beep(10);
+navigator.notification.vibrate(10000);
 }
 </script>
 
